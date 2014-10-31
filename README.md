@@ -3,7 +3,7 @@ DNSimple API Client PHP
 
 A PHP Client for the DNSimple API.  For information on parameters please review the [DNSimple API Reference](http://developer.dnsimple.com/overview/).
 
-Please not this is still in development on pieces of the code as not all functions have been tested.
+Please note this is still in development on pieces of the code as not all functions have been tested.
 
 ## Installation
 
