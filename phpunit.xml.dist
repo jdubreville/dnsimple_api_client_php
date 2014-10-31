@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpunit bootstrap="tests/bootstrap.php" colors="true">
+    <php>
+		<var name="DOMAIN" value="http://www.freerentalsite.com" />
+        <var name="PROFILEID" value="" />
+        <var name="APIKEY" value="" />
+    </php>
+	<testsuites>
+        <testsuite name="Test Suite">
+            <directory>tests/FreeRentalSite/API/Tests</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
