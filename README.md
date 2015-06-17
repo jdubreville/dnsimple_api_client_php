@@ -41,6 +41,10 @@ $client = new DNSimpleAPI($email, $token);
 $domains = $client->domains()->getAll();
 print_r($domains);
 
+// Search for a given record.
+$domains = $client->domains()->getAll(array('name' => 'some_host_name'));
+print_r($domains);
+
 // Create a new domain
 $newDomain = $client->domains()->create(array(
   'name' => 'example.com',

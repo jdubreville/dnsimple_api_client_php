@@ -57,7 +57,7 @@ class DomainRecords extends SubClientAbstract
 	*/
 	public function getAll($parameters = array())
 	{
-		return $this->callListEndpoint(__METHOD__);
+		return $this->callListEndpoint(__METHOD__,$parameters);
 	}
 	
 	/**
