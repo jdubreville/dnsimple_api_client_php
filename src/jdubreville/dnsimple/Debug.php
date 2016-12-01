@@ -3,15 +3,13 @@
 namespace jdubreville\dnsimple;
 
 /**
- * Debug helper class
+ * Debug helper class.
  */
-class Debug 
+class Debug
 {
-
     public $lastRequestHeaders;
     public $lastResponseCode;
     public $lastResponseHeaders;
-	public $lastRequestData;
-	public $lastResponseData;
-
+    public $lastRequestData;
+    public $lastResponseData;
 }
