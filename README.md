@@ -1,13 +1,14 @@
 DNSimple API Client PHP
 =======================
 
-A PHP Client for the DNSimple API.  For information on parameters please review the [DNSimple API Reference](http://developer.dnsimple.com/overview/).
+A PHP Client for the DNSimple API. For information on parameters please review the 
+[DNSimple API Reference](https://developer.dnsimple.com/v1/).
 
 Please note this is still in development on pieces of the code as not all functions have been tested.
 
 ## Installation
 
-The API Client can be installed using  [Composer](https://packagist.org/packages/zendesk/zendesk_api_client_php).
+The API Client can be installed using [Composer](https://packagist.org/packages/zendesk/zendesk_api_client_php).
 
 ### Composer
 
@@ -21,13 +22,13 @@ The API Client can be installed using  [Composer](https://packagist.org/packages
 
 ## Configuration
 
-Configuring the client is done through an instance of the jduebrville\dnsipmle\Client class.
+Configuring the client is done through an instance of the jduebrville\dnsimple\Client class.
 
 ```php
 use jdubreville\dnsimple\Client as DNSimpleAPI;
 
-$email = "eamil@example.com"; // replace with your account email address
-$token = "ajfdaojfoawjf98uwejfaw"; // replace with yoru account token (found in account settings)
+$email = "email@example.com"; // replace with your account email address
+$token = "ajfdaojfoawjf98uwejfaw"; // replace with your account token (found in account settings)
 
 $client = new DNSimpleAPI($email, $token);
 ```
@@ -78,4 +79,4 @@ $client->domains('example.com')->delete();
 
 Licensed under the MIT License
 
-Please refere to the LICENSE file for more information
+Please refer to the LICENSE file for more information.
